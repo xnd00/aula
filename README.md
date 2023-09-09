@@ -41,3 +41,8 @@ Envio de e-mails em lote com tela montada
 Arquivos:
     - app.py
     - func.py
+***
+## XLS
+Utilizando a biblioteca Pandas este projeto abre uma planilha excel com extensão xls e le o valor das colunas.
+
+- Caminho: `./xls/`
