@@ -46,3 +46,11 @@ Arquivos:
 Utilizando a biblioteca Pandas este projeto abre uma planilha excel com extensão xls e le o valor das colunas.
 
 - Caminho: `./xls/`
+
+***
+## API
+
+Consumo de API genérico, com autenticação e uso de parâmetros.
+
+- Caminho: `./api/`
+  
