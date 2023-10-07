@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Newton Py</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <div class="container">
+            <h1>Validador de E-mail</h1>
+            <form class="row g-3" action="/enviar" method="POST">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Servidor</label>
+                    <input type="text" class="form-control" id="host" name="host" value="{{host}}">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Porta</label>
+                    <input type="text" class="form-control" id="port" name="port" value="{{port}}">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Remetente</label>
+                    <input type="text" class="form-control" id="remetente" name="remetente" value="{{remetente}}" >
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Destinatario</label>
+                    <input type="text" class="form-control" id="destinatario" name="destinatario"
+                        >
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Senha</label>
+                    <input type="text" class="form-control" id="password" name="password" value="{{password}}"  >
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Usuário</label>
+                    <input type="text" class="form-control" id="user" name="user" value="{{user}}"  >
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Menssagem</label>
+                    <input type="text" class="form-control" id="menssagem" name="menssagem"
+                        >
+                </div>
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
