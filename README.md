@@ -47,6 +47,12 @@ Utilizando a biblioteca Pandas este projeto abre uma planilha excel com extensã
 
 - Caminho: `./xls/`
 
+
+Utilizando a biblioteca Opnepyxl este projeto cria uma planilha com trê shits, formata celulas, cria tabela em uma sheet e um gráfico em outra sheet.
+
+- Caminho: `./xls/`
+
+
 ***
 
 ## API
